@@ -10,7 +10,7 @@
   - Light weight and faster deployment - SCs are built and deployed as a docker image on Dragonchain. 
 * **Smart Contract**
 Dragonchain SC uses docker to package SC neatly for deployment. 
-Anatomy of SC:
+SC anatomy:
   - Dockerfile: "The Dockerfile is essentially the build instructions to build the image. The advantage of a Dockerfile over just storing the binary image (or a snapshot / template in other virtualisation systems) is that the automatic builds will ensure you have the latest version available. This is a good thing from a security perspective, as you want to ensure you’re not installing any vulnerable software."
     **Node SC  dockerfile**
     ```dockerfile
