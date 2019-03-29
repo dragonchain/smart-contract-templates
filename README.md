@@ -6,8 +6,9 @@
   - Getting started
 
 * **Design goals**
-  - Scalability and Flexibility - Developers can use any programming languages they would like as long as they can configure a dockerfile correctly. Developers can develop up to 20 smart contract but can request for custom increase if needed.
-  - Light weight and faster deployment - SCs are built and deployed as a docker image on Dragonchain. 
+  - Flexibility → Developers can use any programming languages they would like as long as they can configure a dockerfile correctly.
+  - Scalability → Developers can create up to 20 smart contract to start, and can request an increase if needed.
+  - Light weight and faster deployment → SCs are built and deployed as a docker image on Dragonchain. 
 * **Smart contract**
 Dragonchain SC uses docker to package SC neatly for deployment. 
 SC anatomy:
