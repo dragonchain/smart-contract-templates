@@ -83,13 +83,14 @@ SC anatomy:
   - Rust 
   - Java 
   - C/C++ 
-  - C#  (In progress by a community member)
+  - C# [x]
   - R 
   - Clojure 
   - Dart
-  - Go
+  - Go [x]
   - Swift
 
+[x] - means ready or being developed
 * **Guidelines**
     
     For all your code contributions, you should sign your work with the open license below. 
