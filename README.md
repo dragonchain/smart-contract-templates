@@ -72,18 +72,17 @@ Dragonchain is community-driven and welcomes anyone who wants to contribute to o
 
 * **Here are a couple of languages**
 
-* Rust 
-* Java 
-* C/C++ 
-* C# 
-* R 
-* Clojure 
-* Dart
-* Go
-* Swift
+  - Rust 
+  - Java 
+  - C/C++ 
+  - C#  (In progress by a community member)
+  - R 
+  - Clojure 
+  - Dart
+  - Go
+  - Swift
 
 * **Guidelines**
-
 For all your code contributions, you should sign your work with the open license below. 
 Make sure that you sign it with your actual name, nicknames aren't allowed. 
 
