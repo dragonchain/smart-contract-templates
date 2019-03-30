@@ -67,7 +67,7 @@ Here are steps to deploy a SC:
   - Push SC to docker hub ```→ docker push  <docker_username>/<contract_name> ```
   - [Deploy with SDKs](https://github.com/dragonchain-inc/guide-to-develop-on-dragonchain/wiki/Software-Development-Kit-(SDKs))
 
-### How to Contribute SDKs
+* **How to Contribute SDKs**
 Dragonchain is community-driven and welcomes anyone who wants to contribute to our growth and the blockchain space. Currently, Dragonchain supports two SDKs (Python and Node.js) internally, but we would like to provide many SDK options to reflect our system capabilities. If you have any questions or concerns, please join our community developer forum on Telegram (Community Dragonchain Dev Official).
 
 #### Here are a couple of languages
