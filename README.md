@@ -67,6 +67,65 @@ Here are steps to deploy a SC:
   - Push SC to docker hub ```→ docker push  <docker_username>/<contract_name> ```
   - [Deploy with SDKs](https://github.com/dragonchain-inc/guide-to-develop-on-dragonchain/wiki/Software-Development-Kit-(SDKs))
 
+### How to Contribute SDKs
+Dragonchain is community-driven and welcomes anyone who wants to contribute to our growth and the blockchain space. Currently, Dragonchain supports two SDKs (Python and Node.js) internally, but we would like to provide many SDK options to reflect our system capabilities. If you have any questions or concerns, please join our community developer forum on Telegram (Community Dragonchain Dev Official).
+
+#### Here are a couple of languages
+
+* Rust 
+* Java 
+* C/C++ 
+* C# 
+* R 
+* Clojure 
+* Dart
+* Go
+* Swift
+
+#### Guidelines
+
+For all your code contributions, you should sign your work with the open license below. 
+Make sure that you sign it with your actual name, nicknames aren't allowed. 
+
+```
+Developer Certificate of Origin
+Version 1.1
+
+Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+1 Letterman Drive
+Suite D4700
+San Francisco, CA, 94129
+
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed.
+
+
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the best
+    of my knowledge, is covered under an appropriate open source
+    license and I have the right under that license to submit that
+    work with modifications, whether created in whole or in part
+    by me, under the same open source license (unless I am
+    permitted to submit under a different license), as indicated
+    in the file; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
+
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including all
+    personal information I submit with it, including my sign-off) is
+    maintained indefinitely and may be redistributed consistent with
+    this project or the open source license(s) involved.
+```
 
 ### Supporting documentation
 This link for [more infromation ](https://github.com/dragonchain-inc/guide-to-develop-on-dragonchain/wiki)
