@@ -70,7 +70,7 @@ Here are steps to deploy a SC:
 * **How to Contribute SDKs**
 Dragonchain is community-driven and welcomes anyone who wants to contribute to our growth and the blockchain space. Currently, Dragonchain supports two SDKs (Python and Node.js) internally, but we would like to provide many SDK options to reflect our system capabilities. If you have any questions or concerns, please join our community developer forum on Telegram (Community Dragonchain Dev Official).
 
-#### Here are a couple of languages
+* **Here are a couple of languages**
 
 * Rust 
 * Java 
@@ -82,7 +82,7 @@ Dragonchain is community-driven and welcomes anyone who wants to contribute to o
 * Go
 * Swift
 
-#### Guidelines
+* **Guidelines**
 
 For all your code contributions, you should sign your work with the open license below. 
 Make sure that you sign it with your actual name, nicknames aren't allowed. 
