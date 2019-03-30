@@ -59,20 +59,20 @@ SC anatomy:
 
     To get started deploying SC on Dragonchain, you might need to have some knowledge of "containers" and ["function as a service"](https://www.contino.io/insights/what-is-openfaas-and-why-is-it-an-alternative-to-aws-lambda-an-interview-with-creator-alex-ellis): [Docker](https://docs.docker.com/engine/reference/builder/#run) and [OpenFaaS](https://docs.openfaas.com/). If you are not familiar with these software stacks, it is highly recommend getting familiar with them.
     
-Here are steps to deploy a SC:
-  - Create a Dragonchain console account
-  - Create a Docker hub account
-  - Create a Dragonchain [Level 1 Node](https://github.com/dragonchain-inc/guide-to-develop-on-dragonchain/wiki/Create-Level-1-Node) for SC deployment 
-  - [Install Docker on your machine](https://www.docker.com/products/docker-desktop) if you are new to dockers
-  - [Install OpenFaaS on your machine](https://docs.openfaas.com/cli/install/) if you are new to openfaas (optional)
-  - Login into docker on terminal ``` → docker login```
-  - Creating a local directory
-  - Clone the templates: ``` → git clone https://github.com/dragonchain-inc/sc-templates ```
-  - Change Directory: ```→ cd sc-templates ```
-  - Pick a SC template: ``` → cd node_contract``` 
-  - Build SC: ```→ docker build -t <docker_username>/<contract_name> .```
-  - Push SC to docker hub ```→ docker push  <docker_username>/<contract_name> ```
-  - [Deploy with SDKs](https://github.com/dragonchain-inc/guide-to-develop-on-dragonchain/wiki/Software-Development-Kit-(SDKs))
+    Here are steps to deploy a SC:
+    - Create a Dragonchain console account
+    - Create a Docker hub account
+    - Create a Dragonchain [Level 1 Node](https://github.com/dragonchain-inc/guide-to-develop-on-dragonchain/wiki/Create-Level-1-Node) for SC deployment 
+    - [Install Docker on your machine](https://www.docker.com/products/docker-desktop) if you are new to dockers
+    - [Install OpenFaaS on your machine](https://docs.openfaas.com/cli/install/) if you are new to openfaas (optional)
+    - Login into docker on terminal ``` → docker login```
+    - Creating a local directory
+    - Clone the templates: ``` → git clone https://github.com/dragonchain-inc/sc-templates ```
+    - Change Directory: ```→ cd sc-templates ```
+    - Pick a SC template: ``` → cd node_contract``` 
+    - Build SC: ```→ docker build -t <docker_username>/<contract_name> .```
+    - Push SC to docker hub ```→ docker push  <docker_username>/<contract_name> ```
+    - [Deploy with SDKs](https://github.com/dragonchain-inc/guide-to-develop-on-dragonchain/wiki/Software-Development-Kit-(SDKs))
 
 * **How to Contribute SDKs**
 
@@ -91,6 +91,7 @@ Here are steps to deploy a SC:
   - Swift
 
 * **Guidelines**
+    
     For all your code contributions, you should sign your work with the open license below. 
 Make sure that you sign it with your actual name, nicknames aren't allowed. 
 
