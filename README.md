@@ -90,7 +90,7 @@ SC anatomy:
   - Go [x]
   - Swift
 
-[x] - means ready or being developed
+  [x] - means almost ready or being developed
 * **Guidelines**
     
     For all your code contributions, you should sign your work with the open license below. 
