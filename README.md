@@ -127,5 +127,5 @@ By making a contribution to this project, I certify that:
 ```
 
 ### Supporting documentation
-This link for [more infromation ](https://github.com/dragonchain-inc/guide-to-develop-on-dragonchain/wiki)
+This link for [more information ](https://github.com/dragonchain-inc/guide-to-develop-on-dragonchain/wiki)
 
