@@ -3,7 +3,7 @@
 ## Node.js Smart Contract Example
 
   - Dockerfile
-    Node SC  dockerfile
+
     ```dockerfile
     FROM node:8-alpine
 
@@ -22,7 +22,6 @@
     ```
   - Entrypoint
   
-    Node.js Smart Contract entrypoint
     ```js
     'use strict'
     const getStdin = require('get-stdin');
