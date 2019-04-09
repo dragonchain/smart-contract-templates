@@ -2,7 +2,6 @@
 
 ## Node.js Smart Contract Example
 
-    Dragonchain uses docker to package Smart Contract for deployment. 
   - Dockerfile
     Node SC  dockerfile
     ```dockerfile
