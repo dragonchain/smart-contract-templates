@@ -1,10 +1,11 @@
-FROM node:8-alpine
+FROM node:alpine
 
 WORKDIR /home/app
 
 # Get and install dependencies
 COPY package.json .
-RUN NPM_CONFIG_LOGLEVEL=warn npm install --production
+COPY yarn.lock .
+RUN yarn --frozen-lockfile --non-interactive --production
 
 # Copy the actual code
 COPY . .

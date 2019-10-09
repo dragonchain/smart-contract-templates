@@ -2,7 +2,7 @@ FROM alpine:latest
 
 WORKDIR /home/app
 
-RUN apk add --no-cache figlet
+RUN apk add --no-cache bash
 
 COPY . .
 
