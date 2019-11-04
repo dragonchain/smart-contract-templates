@@ -21,7 +21,7 @@ The templates provided in various languages here demo setting up a contract to b
 Clone the repository locally to copy any of the template contracts
 
 ```sh
-git clone https://github.com/dragonchain-inc/smart-contract-templates
+git clone https://github.com/dragonchain/smart-contract-templates
 ```
 
 Then simply use and modify a contract for any language you wish.
