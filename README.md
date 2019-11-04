@@ -28,21 +28,28 @@ Then simply use and modify a contract for any language you wish.
 
 ## Testing Your Contract
 
-In order to test your contract, first build it into a tagged docker container that you can run (with a command line `docker build . -t testing`).
+In order to test your contract, first build it into a tagged docker container:
+```sh
+docker build . -t me/my-contract:0.0.1
+```
 
-Now simply pass stdin into this container to run it, also remembering to pass in your contract start command. For example:
-
+Then use [DCTL](https://github.com/dragonchain/dctl) to test with a dragonchain transaction.
 ```sh
 # Node contract
-echo "some input" | docker run -i testing node index.js
+dctl contract test me/my-contract:0.0.1 node index.js  --payload 'hi' -t 'MytxnTag'
+
 # Go contract
-echo "some input" | docker run -i testing ./main
+dctl contract test me/my-contract:0.0.1 ./main  --payload 'hi' -t 'MytxnTag'
+
 # Python contract
-echo "some input" | docker run -i testing python index.py
+dctl contract test me/my-contract:0.0.1 python index.py  --payload 'hi' -t 'MytxnTag'
+
 # Bash contract
-echo "some input" | docker run -i testing bash contract.bash
+dctl contract test me/my-contract:0.0.1 bash contract.bash  --payload 'hi' -t 'MytxnTag'
 ```
 
 ## Contributing
-
 We are happy to take pull requests to add new language templates, or modify existing ones if necessary.
+Read the [contributing](./CONTRIBUTING.md) docs for more info.
+
+
