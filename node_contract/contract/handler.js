@@ -10,6 +10,8 @@ const sdk = require('dragonchain-sdk');
  * `console.log` = output
  */
 
+const log = (string) => console.error(`STDERR: ${string}`);
+
 module.exports = async input => {
   // Lets create a dragonchain client to read some data from the blockchain.
   const client = await sdk.createClient();
@@ -17,7 +19,7 @@ module.exports = async input => {
   // Anyone calling your dragonchain may put a payload here which you can use
   // to drive your logic. In our case, we dont care about input. But it's here
   // when you need it.
-  console.error('INPUT:', JSON.parse(input).payload);
+  log(JSON.parse(input).payload);
 
   // Lets prep our output as an object literal. It can be anything, but when
   // we use valid JSON as output it allows us the ability to modify different
@@ -38,7 +40,7 @@ module.exports = async input => {
   // One last log to show the result of our logic in the logs.
   // We can easily see the logs from our smart contract via STDOUT when testing,
   // or by using DCTL like so: `dctl contract logs <myContractId> --tail 100`.
-  console.error(`Call Count: ${myCounter}`);
+  log(`Call Count: ${myCounter}`);
 
   // Note: There is no SET-SmartContractObject function in the SDK by-design.
   // You must allow the blockchain to save state to ensure consistency
