@@ -36,16 +36,8 @@ docker build . -t me/my-contract:0.0.1
 Then use [DCTL](https://github.com/dragonchain/dctl) to test with a dragonchain transaction.
 ```sh
 # Node contract
-dctl contract test me/my-contract:0.0.1 node index.js  --payload 'hi' -t 'MytxnTag'
-
-# Go contract
-dctl contract test me/my-contract:0.0.1 ./main  --payload 'hi' -t 'MytxnTag'
-
-# Python contract
-dctl contract test me/my-contract:0.0.1 python index.py  --payload 'hi' -t 'MytxnTag'
-
-# Bash contract
-dctl contract test me/my-contract:0.0.1 bash contract.bash  --payload 'hi' -t 'MytxnTag'
+START_COMMAND=$(cat ./config.json | jq '.startCommand')
+dctl contract test me/my-contract:0.0.1 $START_COMMAND --payload 'hi' -t 'MytxnTag'
 ```
 
 ## Contributing
