@@ -4,3 +4,4 @@ ENV DOTNET_CLI_TELEMETRY_OPTOUT 1
 
 WORKDIR /home/app/src/
 
+COPY . .
