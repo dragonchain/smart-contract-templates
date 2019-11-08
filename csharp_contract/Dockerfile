@@ -6,7 +6,7 @@ WORKDIR /home/app/src/
 
 COPY . .
 
-RUN dotnet restore ./root.csproj; \
+RUN dotnet restore ./root.csproj && \
   dotnet publish -c release -o published
 
 
@@ -14,7 +14,6 @@ FROM microsoft/dotnet:2.1-runtime
 
 WORKDIR /home/app/
 
-COPY --from=builder /home/app/src/published .
-RUN chown 1000:1000 -R /home/app
+COPY --from=builder --chown=1000:1000 /home/app/src/published .
 
 USER 1000:1000
