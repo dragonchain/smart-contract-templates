@@ -21,7 +21,7 @@ async function main() {
     const res = await handler(val); // <-- execute your smart contract.
     process.stdout.write(JSON.stringify(res)); // <-- give the output back to the invoker to modify any state.
   } catch (err) {
-    return console.error(err); // <-- log the error.
+    return console.error(err); // <-- log any errors.
   }
 }
 
