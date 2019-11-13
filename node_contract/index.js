@@ -16,12 +16,12 @@ const getStdin = require('get-stdin');
 const handler = require('./contract/handler');
 
 async function main() {
-  const val = await getStdin(); // <-- get input from the blockchain contract invoker
+  const val = await getStdin(); // <-- get input from the blockchain contract invoker.
   try {
-    const res = await handler(val); // <-- execute your smart contract
+    const res = await handler(val); // <-- execute your smart contract.
     process.stdout.write(JSON.stringify(res)); // <-- give the output back invoker to modify any state.
   } catch (err) {
-    return console.error(err); // <-- log the error
+    return console.error(err); // <-- log the error.
   }
 }
 
