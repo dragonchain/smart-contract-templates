@@ -2,9 +2,9 @@
  * Hi there!
  * You most likely do not want to edit this file.
  *
- * This file is the entrypoint of your smart contract.
+ * This file is the "wrapper" for your smart contract.
  * The Dragonchain process which invokes this code will
- * pass input to this executable file via STDIN.
+ * pass input to this index.js file via STDIN.
  *
  * This file's sole purpose is to give that input to your
  * SmartContract located in the ./contract/handler.js file.
