@@ -1,4 +1,4 @@
-const sdk = require('dragonchain-sdk');
+const sdk = require("dragonchain-sdk");
 
 /**
  * One quick note on Logging from within a smart contract.
@@ -10,7 +10,7 @@ const sdk = require('dragonchain-sdk');
  * `console.log` = output
  */
 
-const log = (string) => console.error(`STDERR: ${string}`);
+const log = string => console.error(`STDERR: ${string}`);
 
 module.exports = async input => {
   // Lets create a dragonchain client to read some data from the blockchain.
@@ -19,7 +19,7 @@ module.exports = async input => {
   // Anyone calling your dragonchain may put a payload here which you can use
   // to drive your logic. In our case, we dont care about input. But it's here
   // when you need it.
-  log(JSON.parse(input).payload);
+  log(input.payload);
 
   // Lets prep our output as an object literal. It can be anything, but when
   // we use valid JSON as output it allows us the ability to modify different
@@ -28,7 +28,9 @@ module.exports = async input => {
   let output = {};
 
   // Here we are asking the Dragonchain to return a string value by its storage key.
-  const { response, status } = await client.getSmartContractObject({ key: 'myCounter' });
+  const { response, status } = await client.getSmartContractObject({
+    key: "myCounter"
+  });
 
   // If this request fails to locate anything it will return a status of 404
   // which just means we can assign this as 0 because all good things are 0 based.
