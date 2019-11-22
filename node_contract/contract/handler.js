@@ -10,7 +10,7 @@ const sdk = require("dragonchain-sdk");
  * `console.log` = output
  */
 
-const log = string => console.error(`STDERR: ${string}`);
+const log = console.error; // Remember that STDERR is the logging stream.
 
 module.exports = async input => {
   // Lets create a dragonchain client to read some data from the blockchain.
